@@ -1,0 +1,33 @@
+<!--
+Activitat correu:
+Dissenya un formulari de recollida de dades personals que constarà de dues pàgines:
+- La primera (index.html) demanarem a l'usuari el seu correu electrònic i un desplegable
+per informar si desitja rebre informació. A més disposarem d'un segon camp per tal que 
+l'usuari repeteixi el seu correu.
+- La segona pàgina (recollirdades.php) haurà de validar si els dos camps han estat cumplimentats.
+Posteriorment també validarem que el correu tingui un format correcte (mireu la funció filter_var).
+Per tant si les dues condicions anterior es cumpleixen, mostrarem un missatge informatiu on
+indicarem si l'usuari amb el seu correu rebrà informació o NO.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="recollirdades.php" method="post">
+        <p>Email: <input type="text" name="email" id="email"></p>
+        <p>Confirm email: <input type="text" name="email2" id="email2"></p>
+        <label for="subscribe">Subscribe:</label>
+        <select name="subscribe" id="subscribe">
+            <option value="1">Sí</option>
+            <option value="0">No</option>
+        </select>
+        <input type="submit" value="Enviar dades">
+        </form>
+</body>
+</html>

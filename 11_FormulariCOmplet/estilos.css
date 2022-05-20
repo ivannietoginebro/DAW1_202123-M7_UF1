@@ -1,0 +1,28 @@
+.titolFormulari {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 500%;
+    margin-top: -20%;
+}
+
+
+.colorTotFons {
+    background-color: rgba(223, 221, 219);
+}
+.colorFons {
+   background-color: white;
+    margin-left: -12%;
+    margin-right: 40%;
+    margin-top: -3%;
+    padding: 2%;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.boto {
+    background-color: rgba(223, 221, 219);
+    padding: 2%;
+    margin-left: 40%;
+}
